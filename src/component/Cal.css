@@ -1,0 +1,23 @@
+.container{
+    width: 500px;
+    height: 300px;
+    margin: auto;
+    padding: 20px 0;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-gap: 5px;
+}
+.block{
+    background-color: #D6E4E5;
+    padding: 20px;
+    border-radius: 5px;
+    text-align: center;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: bold;
+    border: 2px solid #497174;
+}
+.wide{
+    grid-row: 4/4;
+    grid-column: 2/4;
+}
